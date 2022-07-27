@@ -1,85 +1,515 @@
-la cámara digital/de video !!!digital/video camera
-el canal !!!(TV) channel
-el cibercafé !!!cybercafé
-el control remoto !!!remote control
-el correo de voz !!!voice mail
-el disco compacto !!!CD
-el estéreo !!!stereo
-el fax !!!fax (machine)
-la pantalla táctil !!!touch screen
-el radio !!!radio (set)
-el reproductor de CD !!!CD player
-el reproductor de MP3 !!!MP3 player
-el (teléfono) celular !!!cell phone
-la televisión !!!television
-la televisión por cable !!!cable television
-el televisor !!!television set
-el video !!!video
-apagar !!!to turn off
-funcionar !!!to work
-llamar !!!to call
-poner, prender !!!to turn on
-sonar (o:ue) !!!to ring
-descompuesto/a !!!not working; out of order
-lento/a !!!slow
-lleno/a !!!full
-abrazar(se) !!!to hug; to embrace (each other)
-besar(se) !!!to kiss (each other)
-encontrar(se) (o:ue) !!!to meet (each other); run into (each other)
-saludar(se) !!!to greet (each other)
-el archivo !!!file
-la arroba !!!@ symbol
-el cederrón !!!CD-ROM
-la computadora portátil !!!(portable) computer; (laptop)
-la conexión in alámbrica !!!wireless connection
-la dirección electrónica !!!e-mail address
-el disco compacto !!!CD
-la impresora !!!printer
-Internet !!!Internt
-el mensaje de texto !!!text message
-el monitor !!!(computer) monitor
-la página principal !!!home page
-la pantalla !!!screen
-el programa de computación !!!software
-el ratón !!!mouse
-la red !!!network; Web
-el reproductor de DVD !!!DVD player
-el sitio web !!!website
-el teclado !!!keyboard
-borrar !!!to erase
-descargar !!!to download
-escanear !!!to scan
-grabar !!!to record
-guardar !!!to save
-imprimir !!!to print
-navegar (en Internet) !!!to surf the internet
-la autopista, la carretera !!!highway
-el baúl !!!trunk
-la calle !!!street
-el capó, el cofre !!!hood
-el carro, el coche !!!car
-la circulación, el tráfico !!!traffic
-el garaje, el taller (mecánico) !!!garage; (mechanic's) repair shop
-la gasolina !!!gasoline
-la gasolinera !!!gas station
-la licenca de conducir !!!driver's license
-la llanta !!!tire
-el/la mecánico/a !!!mechanic
-el navagador GPS !!!GPS
-el parabrisas !!!windshield
-la policía !!!police (force)
-la velocidad máxima !!!speed limit
-el volante !!!steering wheel
-arrencar !!!to start
-arreglar !!!to fix; to arrange
-bajar(se) de !!!to get off of/out of (a vehicle)
-conducir, manejar !!!to drive
-estacionar !!!to park
-llenar (el tanque) !!!to fill (the tank)
-parar !!!to stop
-revisar (el aceite) !!!to check (the oil)
-subir(se) a !!!te get on/into (a vehicle)
-por aquí !!!around here
-por ejemplo !!!for example
-por eso !!!that's why; therefore
-por fin !!!finally
+Double-blind procedure!!!!!Both experimenter and subject don't know whether the subject is in the control or experimental group.
+Hawthorne effect!!!!!People's actions change when they are being observed.
+Barnum effect!!!!!Individuals tend to believe vague descriptions that are attributed to them.
+Sympathetic nervous system!!!!!Freeze, Fight or Flight Response. Accelerates heart rate, breathing, dilates pupils, slows digestion.
+Parasympathetic nervous system!!!!!Calms the body down after a stressful event.
+Autonomic nervous system!!!!!Automatic Body Responses, includes sympathetic and parasympathetic nervous systems.
+Somatic nervous system!!!!!Voluntary muscle movement/actions.
+Endocrine system!!!!!System of glands that secretes hormones.
+Pituitary gland!!!!!Controlled by hypothalamus, the most influential gland in the endocrine system.
+Electroencephalogram(EEG)!!!!!Detects electrical output of brain waves.
+Positron Emission Tomography(PET) Scan!!!!!Measure specific chemical usage of the brain.
+Magnetic Resonance Imaging(MRI)!!!!!By knocking out protons and measuring the displacement to create detailed images.
+Functional Magnetic Resonance Imaging(FMRI)!!!!!PET+MRI.
+Brainstem!!!!!Where the spinal cord enters the brain, responsible for automatic survival symptoms.
+Medulla!!!!!The base of the brainstem controls heartbeat and breathing.
+Thalamus!!!!!Controls every sense except smell, the switchboard of the brain.
+Reticular Formation!!!!!Controls arousal, in the center of the brainstem.
+Cerebellum!!!!!At the end of the brainstem, processes sensory input and fine movements. Stores procedural memory
+Limbic System!!!!!The limbic system contains the amygdala, hypothalamus, thalamus and hippocampus which are important in regulating emotions, memories and arousal.
+Amygdala!!!!!Memory processing, invokes or calms anger and fear.
+Hypothalamus!!!!!Controls thirst, endocrine system, temperature, hunger and sexual arousal, basically the key control site of the autonomic system.
+Cerebral Cortex!!!!!4 lobes in the brain: the frontal lobe, parietal lobe, occipital lobe, and temporal lobe
+Glial Cells!!!!!Supporting cells for neurons, including: astrocytes, oligodendrocytes, microglia, ependymal cells, radial glia, schwann cells and satellite cells.
+Frontal Lobes!!!!!Motor Cortex and Broca's Area
+Parietal Lobes!!!!!Sensory Cortex and Association Areas
+Occipital Lobes!!!!!Visual Cortex
+Temporal Lobes!!!!!Auditory Cortex and Wenike's Area
+Motor Cortex!!!!!Controls voluntary muscle movements
+Sensory Cortex!!!!!Processes touch and movement sensations
+Association Areas!!!!!Areas not directly related to motor control and sensory information
+Neurogenesis!!!!!Generating new neurons
+Corpus Callosum!!!!!Unites the hemispheres and facilitates communication between them
+Transcranial Magnetic Stimulation(TMS)!!!!!Used for depression treatments, uses strong magnetic fields to disrupt activity in specific areas of the brain.
+Developmental Psychology!!!!!How our body develops throughout our life.
+Maturation!!!!!Changes in behavior that result from biological growth and are relatively unrelated to experience.
+Cognition!!!!!Process of learning/understanding
+Schema!!!!!The brain's way of categorizing experiences.
+Yerkes-Dodson law(Arousal Theory)!!!!!We have an optimal level of arousal, or just the right amount of stress(too much-burnout, too little-they don't want to do it)
+Assimilation!!!!!Adding new experiences into existing schema
+Accomodation!!!!!Modifying/adjusting schemas to fit new experiences.
+Sensorimotor Stage!!!!!0-2 years, Experiencing the world through looking, touching, mouthing, and grasping
+Preoperational Stage!!!!!2-7 years, use of words, images and intuition
+Egocentrism!!!!!the inability to perceive things from another's perspective
+Conservation!!!!!The constant quantity of an object even as transferred: split apart, molded, etc.
+Concrete Operational Stage!!!!!7-11 years, able to understand analogies, concepts such as conservation and can perform arithmetic operations
+Formal Operational Stage!!!!!12-adulthood abstract reasoning
+Critical Period!!!!!The optimal period for certain stimuli/experience after birth for "proper development"
+Imprinting!!!!!Process used to form attachments during the critical period
+Adolescence!!!!!Period between childhood and adulthood
+Social Identity!!!!!How we recognize ourselves as part of different groups or cohorts
+Emerging Adulthood!!!!!18-25
+Cross-Sectional Study!!!!!A study that observes a representative sample at a specific time and compares them to other representative samples.
+Longitudinal Study!!!!!Studies on the same subjects over a long period of time.
+subliminal!!!!!Stimuli below our absolute threshold
+Signal Detection Theory!!!!!Our absolute threshold changes depending on our mental and physical state
+Bottom-Up Processing!!!!!Using the basic elements to understand something
+Top-Down Processing!!!!!Using our perceptual sets to understand something
+Weber's Law!!!!!The greater the stimuli the bigger portion of stimuli required to detect change in stimuli.
+Perceptual Set!!!!!How we perceive or interpret things based on our schemas
+Iris!!!!!Controls the size of the pupil and the external surface area
+Retina!!!!!Retina the sensory wall at the back of the eye
+Rods!!!!!Very sensitive(500-1000*cones), no color
+Cones!!!!!Color vision
+Parallel Processing!!!!!The brain's ability to process multiple stimuli at once
+Fovea!!!!!The area on the retina where photoreceptor density is the highest, used to focus vision
+Blind Spot!!!!!The place where the optic nerve goes from eye to brain.
+Young-Helmholtz Trichromatic theory!!!!!Red, green and blue cones make all the colors we see, fails to explain afterimages and colorblindness
+Opponent-Processing theory!!!!!Sensory receptors come in pairs: Red/Green, Yellow/Blue, Black/White, when one color is stimulated the other is inhibited.
+Gestalt!!!!!Meaning form or whole, gestalt principles state how we organize what we perceive.
+Monocular Cues!!!!!Elements available to one eye: light and shadow, relative size, interposition, etc.
+Visual Cliff!!!!!An experiment that shows that many species(including humans) are born with depth perception or develop it shortly after birth.
+Retinal Disparity!!!!!The slight difference in the position of both eyes allows the brain to measure relative distance from an object through triangulation.
+Perceptual Constancy!!!!!As we move objects change in our eyes but are able to maintain constant shape, size and brightness
+Middle Ear!!!!!A Chamber between eardrum and cochlea containing the hammer, anvil and stirrup, concentrates and transmits vibrations to cochlea.
+Cochlea!!!!!A liquid filled tube which transmits the vibrations to the hair cells
+Inner ear!!!!!Innermost part contains cochlea semicircular canals and vestibular sacs.
+Sensorineural hearing loss!!!!!Hearing loss caused by damage to the receptor cells or auditory nerves
+Conduction hearing loss!!!!!Hearing loss caused by a damage in the mechanical system which conducts sound waves to the cochlea
+Cochlear implant!!!!!A device that translates sound into electrical signals, allowing people with nerve deafness to restore hearing.
+Place theory!!!!!Different hair sensory cells vibrate at different pitches(high pitched sounds)
+Frequency theory!!!!!All hairs vibrate at speeds depending on sound frequency(low pitched sounds)
+Gate-control theory!!!!!The idea that there is a "gate" on the spinal cord that allows or disallows pain signals from making it to the brain
+Sensory interaction!!!!!Sensations are linked and may stimulate changes in other sensations such as smell and sight affecting taste.
+kinesthesis!!!!!Sense of bodily movements and position
+Vestibular sense!!!!!Sense of head movements and balance, located in our semicircular canals in ears
+Extrasensory perception(ESP)!!!!!A branch of parapsychology studies how the brain receives paranormal signals apart from our normal known senses(ex. telepathy)
+Parapsychology!!!!!pseudoscience in psychology that explores circumstances that can't be proven or replicated(ex. ESP)
+Implicit Memory!!!!!Procedural memory and automatic processing
+Mnemonics!!!!!A system of learning and memorization that aids in memory retention
+Deep processing!!!!!Encoding based off of meaning and semantics as opposed to structure and appearance, usually yields better retention
+hippocampus!!!!!A neural center involved in processing and storing explicit memories. (damage to hippocampus causes anterograde amnesia)
+Long-term Potentiation!!!!!Growth in neuron connection allow for greater firing potential over time, allowing more long term learning
+Mood-congruent memory!!!!!Your current emotional state will allow you to more easily trigger memories related to or created under a similar emotional state.
+Dual-Coding Theory!!!!!Memory can be enhanced the more forms it is encoded in.
+Heuristic!!!!!A mental shortcut, prone to error, generally used to make judgments to solve problems。
+Mental Set!!!!!A method of solving problems based on only past solutions and experiences, usually not looking further for better solutions. Established thought patterns
+Availability Heuristic!!!!!A shortcut used in determining probability of certain situations by looking at the examples and familiarity with facts of the situation that the mind can recall
+Belief Perseverance!!!!!The inability to accept new information based on old beliefs.
+Phoneme!!!!!Smallest unit of sound in language.
+Morpheme!!!!!Smallest unit of meaningful sound in words.
+Babbling Stage!!!!!3-4 months when a child starts experimenting with articulating speech
+Telegraphic Speech!!!!!Two word stage
+Aphasia!!!!!Damage to brain inhibiting its ability to convey speech
+Broca's Area!!!!!Area that controls language expression in the left hemisphere and frontal lobe
+Wenicke's Area!!!!!Area that controls language reception and comprehension in left temporal lobe
+Linguistic Determinism!!!!!A hypothesis(not entirely true) that language determines the way one thinks and the limits to one's thought.
+Linguistic Relativity!!!!!Our view of the world is relative to the language we speak not entirely determined
+Mary Ainsworth!!!!!Famous for her strange situation experiment
+Strange situation experiment!!!!!Where infants were placed in different situations and observed for how they reacted, mainly allowing us to understand more about the attachment aspect of childhood development.
+Emergentist Theories!!!!!This theory states that both nature and nurture are key to the development of languages.(Specifically for language development, so not entirely accurate for the general term emergentism which is a bit complicated)
+Additive strategies!!!!!Where all factors are given a score then added and compared to reach a decision
+Bounded rationality!!!!!Humans will seek a decision that is satisfactory rather than perfect
+Representative heuristic!!!!!Using the mind's prototypes of certain factors or categories to evaluate the probability of an event occuring
+Elimination by aspects!!!!!the process of removing other options because they lack an important aspect that one of the options have
+behaviorism!!!!!The view that psychology should be an objective science and study behavior without reference to mental processes.
+Humanistic psychology!!!!!This approach looks to help people fulfill their potential and maximize wellbeing.
+Cognitive neuroscience!!!!!Study of the brain linked with cognition(perception, thinking memory and language)
+Biopsychosocial approach!!!!!A combination of biological, psychological and social-cultural levels of analysis
+SQ3R!!!!!Survey, Question, Read, Recite and Review
+Psychoanalytic/Psychodynamic School!!!!!Analyzes how different level of consciousness dictate our behavior, emotion, mental state, etc.
+Cognitive School!!!!!How we encode, process, store, and retrieve information.
+Behavioral School!!!!!How we learn observable actions
+Biological School!!!!!How our genes and environment influence us and our differences
+Evolutionary School!!!!!How natural selection influence our inherited traits
+Social-Cultural School!!!!!How your behavior and thinking are shaped by your culture and how behavior and thinking vary through different cultures
+Functionalism!!!!!The nature of things are defined by their practical use and purpose.
+Structuralism!!!!!things are defined by their relationships and interactions with each other.
+Classical conditioning!!!!!The original conditioning that was discovered by Ivan Pavlov, using associative learning.
+Neutral stimulus!!!!!A stimulus that initially doesn't produce any response
+Conditioned response!!!!!A response associated with the neutral stimulus
+Operant conditioning!!!!!The learner is further rewarded or punished based on how they do
+Law of Effect!!!!!Depending on the random positivity of the event that follows a certain behavior, the behavior will be more or less likely to be followed again.
+Operant behavior!!!!!behavior or response that will result in an effect which will reinforce or punish the behavior
+Prosocial Behavior!!!!!When someone acts to benefit others
+Respondent Behavior!!!!!Response to certain stimuli that is so important that it is almost always predictably and reliably going to happen when given the stimuli
+Social Psychology!!!!!The science that studies how we think, influence, relate and interact with one another.
+Fundamental attribution Error!!!!!The tendency to overestimate an outgroup or another individual's behavior as a result of their personality rather than as a result of circumstance
+Peripheral route persuasion!!!!!When an argument is partially determined by things unrelated to the actual content of the argument, such as the physical attractiveness of the person presenting the argument.
+Cognitive Dissonance Theory!!!!!When an individual's behavior is inconsistent with their attitudes, they will change something to regain consistency, usually their attitudes.
+Social Loafing!!!!!People generally put in less work when working as a group than when working as a individual
+Other-race Effect!!!!!The bias towards remembering faces of one's own race more easily than other races.
+Mere Exposure Effect!!!!!That just exposure to new stimuli makes one tend to like it more.
+Self-Disclosure!!!!!The act of revealing personal or private information about one's self to others
+Social Trap!!!!!When 2 sides with opposing views/objectives are unable to reach compromise or understanding.
+Mirror-image Perceptions!!!!!The tendency to view those who conflict with oneself as opposite(you are good they are bad)
+Psychosexual Stages!!!!!Oral(0-1.5), anal(1.5-3), phallic(3-6), latency(6-puberty) and genital stage(puberty through adulthood).
+Free Association!!!!!Allowing thoughts, regardless of what they are, to be freely spoken out of the mind without censorship or selection. Hopefully allowing unconscious or subconscious material to surface.
+Social-Cognitive Perspective!!!!!How our behaviors are influenced by and influence our situation and who we are.
+Reciprocal Determinism!!!!!Behaviors, cognition and environment are interlinked and influence each other.
+James-Lange Theory!!!!!How are physical reaction leads to our emotional/cognitive reaction
+Cannon-Bard Theory!!!!!How our physical and cognitive reaction occur simultaneously
+Facial Feedback Effect!!!!!The tendency of our facial muscle state to trigger emotions(joy, fear, anger, etc.)
+Drive-Reduction Theory!!!!!Our body tries to maintain homeostasis, and when we aren't in homeostasis, we create a drive(need) to do something. Drive-reduction theory is good at explaining how we are motivated by many biological needs.
+Basal Metabolic Rate!!!!!The rate at which you burn calories while resting in bed.
+Personnel psychology!!!!!A subfield of I/O psychology that focuses on all aspects of employees: recruitment, selection, placement, training, appraisal, development and performance.
+Human factors psychology!!!!!A subfield of I/O psychology that focuses on how humans and machines interact.
+Adaptation-Level phenomenon!!!!!Our level of contentment is constantly adapting to our current situation.(satisfied with less, dissatisfied with more)
+Tend and Befriend!!!!!Under stress people have a higher likelihood to support(tend) and seek support from others(befriend).
+Relative Deprivation!!!!!The tendency for one to feel worse off relative to those one compares oneself to.
+Emotion-Focused Coping!!!!!Stress management that strives to reduce negative responses.
+Coronary Heart Disease!!!!!The clogging of the vessels that nourish the heart muscle.
+Aerobic Exercise!!!!!Any exercise that increases heart and lung fitness
+Complementary and Alternative Medicine(CAM)!!!!!Unproven medical treatments intended as complementary or alternative medicine
+dissociation!!!!!Some kind of mental detachment from the environment or the physical world.
+Sleep apnea!!!!!Irregular breathing patterns while sleeping.
+insomnia!!!!!Trouble staying or falling asleep.
+blindsight!!!!!People who have damage to their visual cortex, who cannot see but can still sense movement through their eyes.
+Inattentional blindness!!!!!When the attention is concentrated it tends to fail to notice other objects.
+Change blindness!!!!!Where we are are unable to notice obvious changes in visual stimuli.
+Diana Baumrind!!!!!Developmental psychologist that created the idea of parenting styles: permissive, authoritative, authoritarian, and neglectful.
+Erik Erikson!!!!!Known for his theories of psychological development.
+Harry Harlow!!!!!Known for his study on monkeys(many now considered unethical), most popular maternal-separation, dependency needs and social isolation experiments.
+Isolation Experiments!!!!!Isolation in the critical period has a huge effect in decreasing cognitive, socializing ability and increasing aggressiveness.
+Lawrence Kohlberg!!!!!Known for his theory of moral development.
+Jean Piaget!!!!!Known for his cognitive development theory.
+Kohlberg theory of moral development!!!!!Obedience and Punishment, Individualism and Exchange, Developing Good Interpersonal Relationship, Maintain Social Order, Social Contract and Individual Rights + Universal Principles
+Lev Vygotsky!!!!!Developed sociocultural theory.
+James Marcia!!!!!Best known for his research into adolescent psychological development, his greatest development is the Identity Status Interview.
+Noam Chomsky!!!!!Was a linguist, who's work in language acquisition created new fields in psychology like neurolinguistics, computational linguistics, language acquisition, etc.
+Rooting Reflex!!!!!When touched the baby will turn the head toward wherever they were touched
+Grasping(Palmar) Reflex!!!!!When something is put into the baby's hand they will try and grab it
+Sucking Reflex!!!!!When something is put into the baby's mouth they will suck on it
+Babinski Reflex!!!!!When the baby's foot is stroked they will spread their toes
+B. F. Skinner!!!!!Operant conditioning, developed the skinner box. Believed all learning was observable.
+Benjamin Lee Whorf!!!!!Developed Linguistic Relativity
+Mary Whiton Calkins!!!!!Focused on Self Psychology. She was the president of the APA and she had completed her doctoral studies at Havard, but was rejected from PHD because she was a woman. Student of WIlliam James.
+Charles Darwin!!!!!Discoverer/inventor of the theory of natural selection, the father of the evolutionary perspective.
+Dorothea Dix!!!!!An activist who lobbied for the first mental institutions/asylums.
+Sigmund Freud!!!!!Founded psychoanalytic school, created psychosexual stages, and wish-fulfillment dream theory.
+G. Stanley Hall!!!!!Student of William James, he founded the APA. First american psychologist and build first American psychology lab. His interests were evolutionary psychology and child development.
+William James!!!!!Wrote first psychology textbook, established functionalism.
+Ivan Pavlov!!!!!Famous for his work in classical conditioning
+Carl Rogers!!!!!One of the founders of Humanistic psychology, developed the idea of unconditional positive regard in psychotherapy. Client Centered Therapy
+Margaret Floy Washburn!!!!!First woman to earn a Ph.D. in psychology. Second President of the APA
+John B. Watson!!!!!Founder of Behaviorism, was most known for his little albert experiment.
+Wilhelm Wundt!!!!!Founded the first psychology lab, and thought to be the Father of psychology. Worked on the idea of introspection.
+Edward Titchner!!!!!Student of Wilhelm Wundt, officially created structuralism.
+Albert Bandura!!!!!Known for his development of the concept of observational learning and social learning theory through the Bobo Doll experiment.
+Edward Thorndike!!!!!A behaviorist known for his Law of Effect theory derived from his study on cats in puzzle boxes. He also pioneered many other theories like the trial-and-error theory of learning and would be known as the father of modern educational psychology.
+Edward Tolman!!!!!He did heavy research into cognitive behaviorism and was known for developing the idea of latent learning(conditioning without reinforcement) and the idea of cognitive maps on rats in mazes.
+Solomon Asch!!!!!Known for Asch Conformity Experiments.
+Leon Festinger!!!!!Very influential social psychologist, most notably he developed cognitive dissonance and social comparison theory.
+Proximity Effect!!!!!The distance determines relations.
+Lateral Hypothalamus!!!!!Hungry
+Ventromedial Hypothalamus!!!!!Fullness(in terms of food)
+Social comparison theory!!!!!People tend to compare themselves to others around them and use it as a method of assessing themselves.
+Method of loci!!!!!Corresponding a memory with a place. Loci stands for location.
+External validity!!!!!How the conclusions of a study can be used to judge the real world.
+Internal validity!!!!!Confidence level that there is a cause and effect relationship between 2 factors and no other.
+Stanley Milgram!!!!!Infamous for his obedience experiment(Milgram experiment) he later did some other less psychology related experiments at Harvard.
+Philip Zimbardo!!!!!Famous for his Stanford Prison Experiment and as a result started researching Heros, later founding a foundation to create Heros.
+Charles Spearman!!!!!Pioneered use of factor analysis and created general intelligence g, and s for specific ability.
+Howard Gardner!!!!!Created theory of multiple intelligences.
+Gardner Theory of Multiple Intelligences!!!!!Multiple intelligences come together to define intelligence: visual-spatial, musical, linguistic-verbal, interpersonal, intrapersonal, logical-mathematical, bodily-kinesthetic, and natural. Critics say this theory has little empirical evidence.
+Robert Sternberg!!!!!Created theory of triarchic theory of intelligence and theory of cognitive styles.
+Triarchic Theory of intelligence!!!!!Analytical(problem-solving), creative/synthetic(new situation) and practical(everyday life) intelligence.
+Alfred Binet!!!!!His intelligence scales serve as the basis of modern intelligence tests, he developed the first intelligence test Binet-Simon Intelligence Scale.
+Francis Galton!!!!!Father of eugenics, one of the first to widely use the idea of a normal curve. Tried to measure natural ability, first assessor of intelligence.
+Lewis Terman!!!!!He focused on methods for testing intelligence and contributed greatly to the field of educational psychology. He made the stanford-binet scales, designed to test children. He was also the one who linked eugenics to psychology.
+David Wechsler!!!!!Created Wechsler Adult Intelligence Scale (WAIS), he was critique of the Stanford-Binet test and this test was designed to make up for what stanford-binet lacked(primarily ability to test adults).
+Master and Johnson Model!!!!!(1) excitement, (2) plateau, (3) orgasm, and (4) resolution.
+Stanley Schachter!!!!!Developed the 2-factor theory of emotion.
+Abraham Maslow!!!!!A humanistic psychologist best known for his hierarchy of needs.
+Albert Ellis!!!!!Pioneered developmental Rational Emotive Behavioral Therapy(REBT) considered the precursor to Cognitive Behavioral Therapy.
+Little Albert Experiment!!!!!This experiment took Pavlov's experiment a step further and proved that it is possible to condition humans. It also proved that fear/anxiety is conditioned.
+Cognitive development theory/Piaget's Stages!!!!!Sensorimotor, preoperational, concrete operational and formal operational stage.
+Michael Gazzaniga!!!!!He built on Sperry's work known for his studies on the brain's split personality and how they divide labor.
+Roger Sperry!!!!!Known for his split-brain research.
+Split-brain research!!!!!Where the corpus colosseum which connects the 2 hemispheres is cut and the brains are unable to communicate with one another.
+Gustav Fechner!!!!!Student of Ernst Heinrich Weber, built of Weber's law creating Fechner's law. Founder of psychophysics, a set of methods for empirically relating measured sensory stimulus to reported sensation.
+Fechner's Law!!!!!The subjective sensation is proportional to the logarithm of the stimulus intensity.
+Ernst Heinrich Weber!!!!!Known for his studies in touch sensation, he created Weber's law, just-noticeable differences between some other concepts.
+Torsten Wiesel and David Hubel!!!!!Known for their joint research into the visual cortex and won the Nobel Prize for their discovery of the Ocular Dominance Column. This research is related to Visual development's own critical period. Groups of neurons in the visual cortex correspond to different stimuli.
+Ernest Hilgard!!!!!Helped make hypnosis respectable as a medical tool, developed Stanford Hypnotic Susceptibility Scale and hidden observer theory.
+Hidden Observer Theory!!!!!Part of Hilgard's (neo)dissociation theory where the hidden observer is another control over the person's consciousness that does not experience certain senses(pain, touch) directly.
+John Garcia!!!!!Known for finding exceptions to classical conditioning and the garcia effect found through taste aversion experiments on rats.
+Garcia Effect!!!!!The development of taste aversion toward something because a food is paired with aversive stimuli.
+Robert Rescoria!!!!!The heir to Pavlov, he was known for his truly random control study which later led to the Rescoria Wagner model.
+Truly Random Control!!!!!Presenting the conditioned and the unconditioned stimuli in a random order with respect to each other
+Rescorla Wagner Model!!!!!A mathematical model of classical conditioning
+Theory of universal grammar!!!!!Certain genetic factors that shape how grammar is in all languages.
+ZEF!!!!!Zygote Embryo Fetus
+Efferent Neurons!!!!!Motor Neurons, CNS commands to muscles
+Afferent Neurons!!!!!Sensory Neurons, Data to CNS
+Central Axial Tomography(CAT ) Scan!!!!!X-Ray of the Brain.
+Electrical Brain Stimulation!!!!!Weak electric current used to stimulate the brain
+Acetylcholine!!!!!Motor Movement and Memory
+GABA!!!!!Main inhibitory neurotransmitter
+Agonists!!!!!Make Neuron Fire
+Antagonists!!!!!Stop Neuron Fire
+semantics!!!!!How meaning is interpreted from language
+Neuron!!!!!dendrites, soma, axon, myelin sheath and terminal branches of anxiety
+Hermann Ebbinghaus!!!!!Pioneered the experimental study of memory, known for his many theories on memory learning curve, memory curve, spacing effect, serial position effect, etc.
+Wolfgang Kohler!!!!!Co-founder of Gestalt psychology, studied under Max Planck and Carl Stumpf, working on psychoacoustics. Also known for the quote "the whole is different(later misinterpreted to greater) than the sum of its parts."
+Max Wertheimer!!!!!Co-founder of Gestalt psychology, main research in phi phenomenon, gestalt theory and productive thinking.
+Elizabeth Loftus!!!!!One of current leading figures in cognitive psychology, one of her leading theories is the idea that memory creation isn't perfect and the more one forgets the more the brain makes up stuff to restore the memory(and how this can be manipulated). Which led to the development of the misinformation effect.
+George Armitage Miller!!!!!Founder of cognitive science and cognitive psychology. Co-founder of psycholinguistics with Noam Chomsky. He created the idea of working memory where the brain can only store 7+-2 packets of information. He also discovered the idea of chunking, grouping familiar pieces of information into a larger unit for easier memory.
+Clark Hull!!!!!His greatest contribution is his ideas on the approach to psychology through his axiomatic method and the hypothetico-deductive method. He is also known for some of his research related to reinforcement learning such as drive-reduction theory,
+Clark Hull's axiomatic method!!!!!He tries to solidify psychology as more of an actual science through the belief that psychological laws could be represented through mathematical equations.
+Hypothetico-Deductive Method!!!!!The idea that when constructing a scientific theory based on experimental or empirical data, one can generate with inference a predictive model to predict future events with the theory.
+Henry Murray!!!!!Studied motivation and needs, created his own hierarchy of needs. Known for his development of the Thematic Apperception Test(TAT).
+Thematic Apperception Test(TAT)!!!!!A projective test in which people express their inner feelings through stories they make about ambiguous scenes.
+David Mcclelland!!!!!Furthered Henry Murray's work, developing better scoring methods for the TAT and worked on achievement motivation.
+Two-Factor Theory of Emotion!!!!!Combination of James-Lange Theory and Cannon-Bard Theory, those with greater physical arousal will experience stronger emotion, but the reaction toward something happens simultaneously psychologically and physiologically.
+Hans Selye!!!!!Founded stress as an important factor in psychophysiological illnesses. He created the General Adaptation Syndrome.
+Erikson's Stages of Psychosocial Development!!!!!Trust vs Mistrust, Autonomy vs Shame, Initiative vs Guilt, Industry vs Inferiority, Identity vs Role Confusion, Intimacy vs Isolation, Generativity vs Stagnation, and Ego Integrity Vs Despair.
+Trust vs Mistrust!!!!!Are the baby's needs met?
+Autonomy vs Shame!!!!!Babies are just starting to become independent
+Initiative vs Guilt!!!!!Kids have more control and explore the extent to which they can execute it, purpose.
+Industry/Competence vs Inferiority!!!!!School, inferiority worse at tasks, competence potential is realized
+Identity vs Role Confusion!!!!!Teenagers try to understand who they are what their purpose is
+Intimacy vs Isolation!!!!!Balancing work and relationships
+Dementia!!!!!A decline in mental ability great enough to interfere with daily life
+Alzheimer's Disease!!!!!Most common cause of dementia
+Julian Rotter!!!!!Developed the ideas of external vs internal locus of control.
+Generativity vs Stagnation!!!!!Midlife Crisis
+Ego Integrity vs Despair!!!!!Reflection
+Carol Gilligan!!!!!Critical of Erikson and Kohlberg, created her own theories of women development.
+Carol Gilligan's Theory!!!!!Added ethics of care and developing a sense of self to Kohlberg's theory.
+Konrad Lorenz!!!!!Father of ethology, study of animal behavior. In psychology, he is known for the development of the idea of imprinting.
+Alfred Adler!!!!!A neo-freudian who developed the inferiority complex. He developed his Adlerian(individual) psychology.
+Inferiority Complex!!!!!An unrealistic feeling of inferiority in a certain subject that encourages drastic behavior.
+Carl Jung!!!!!Neo-freudian, he proposed and developed the concepts of the extraverted and the introverted personality, archetypes, and the collective unconscious.
+Factor Analysis!!!!!Used to determine links between variables and organize data into certain categories, or less variables.
+Louis Leon Thurstone!!!!!He developed his own Thurstone scale and his law of comparative judgment, which has helped in the statistical development of many tests from WAIS to Stanford-Binet.
+Rational Emotive Behavioral Therapy!!!!!Finds irrational self-defeating thoughts preventing higher productivity and removes them.
+Cognitive Behavioral Therapy!!!!!Similar to REBT, with small differences, anger is still somewhat important
+Mary Cover Jones!!!!!Mother of Behavior Therapy. In her little Peter experiment, she was able to successfully reverse the effects of conditioned fear(kind of a reverse little albert experiment.)
+Joseph Wolpe!!!!!His techniques of systematic desensitization, designed for curing phobias and anxiety, as well as his methods, such as SUDS used in assertiveness training provided the basis for modern behavior therapy.
+Systematic Desensitization!!!!!A phobia treatment procedure in which patients are shown progressively more anxiety provoking stimuli and forced to overcome it with the help of an expert and relaxation techniques.
+Subjective Units of Distress Scale(SUDS)!!!!!A measurement of the intensity of your negative feelings: anxiety, anger, agitation, frustration, stress, etc.
+Darley and Latane!!!!!First to study the bystander effect of the diffusion of responsibility.
+Milgram experiment!!!!!Stanley Milgram's experiment on how unethical people could be when "just following orders"(obedience). Results were 65% would continue to max. Results were valid, the experiment was very unethical.
+Three Box Model of Memory!!!!!Sensory(¼-3 sec.) perfect sensational memory, Working(20 sec.) sensation being actively processed, long term
+Olfactory Cicilia!!!!!Nose Smell/chemoreceptors
+Agnosia!!!!!Failures in senses as a result of certain brain damage
+Stanford Prison Experiment!!!!!People conform to the roles they play including experimental roles.
+Introspection!!!!!Looking into oneself and how one feels.
+Gestalt Psychology!!!!!Focus on one's senses and how one experiences the world.
+Order Of Waves Psychology!!!!!Introspection, Gestalt, Psychoanalysis, Behaviorism, Eclectic
+Eclectic!!!!!A variety of ideas(schools of psychology) combined
+Phi phenomenon!!!!!Illusion of movement of actually stationary objects.
+Productive vs Reproductive thinking theory!!!!!Thinking slow(productive) and fast(reproductive)
+Thomas Bouchard!!!!!Minnesota Twins studies, raised apart, together, etc.
+Jerome Kagan!!!!!Nature and nurture in nature vs nurture
+Karen Horney!!!!!A neo-freudian, childhood anxiety is caused by helplessness of a child who is very dependent.
+Martin Seligman!!!!!learned helplessness
+Other-Race Effect!!!!!We tend to see mixed-race faces as belonging to the other group.
+Fritz Perls!!!!!Gestalt therapy
+Gestalt therapy!!!!!Teach people about the sensations within them, allowing people to have a higher self awareness and freedom.
+Aaron Beck!!!!!CBT(cognitive behavioral therapy)
+Costa & McCrae!!!!!Created Big 5 Factors
+OCEAN Big 5 personality!!!!!Openness to Experience, Conscientiousness, Extraversion, Agreeableness, and Neuroticism
+Kahneman & Tversky!!!!!Develop Prospect Theory
+Develop Prospect Theory!!!!!Focuses on how people react to risk and uncertainty and how people develop irrational ideas and predictions.
+Ponzo Illusion!!!!!Linear Cues Illusion
+Reversible/Ambiguous Figures!!!!!More than one perception
+Impossible Figures!!!!!Can exist in 2D but not in 3D
+Moon Illusion!!!!!Moon appears bigger when closer to the horizon.
+Ames Room!!!!!Special room designed to look normal but in fact gets bigger and farther away, so that it looks like a normal rectangular room.
+inculcate!!!!!To teach someone an attitude
+Cult Warning Signs!!!!!-Expect Unquestioning Loyalty
+-Preoccupied with money and recruiting
+-Mind-numbing techniques: chanting
+Elitist
+-Dictation on how to act, feel, and think
+-Leader is related to some god, prophet, etc.
+Raymond Cattell!!!!!Applied factor analysis to personality
+Stages of Sleep(and details on them)!!!!!NREM1-3. REM4
+High Frequency Beta Waves!!!!!Awake
+Alpha Waves!!!!!NREM1-body processes slow down(5-10 minutes)
+Theta Waves!!!!!NREM2-mind becomes unaware of surrounding, body temp drops, eye movements stop(20 minutes)
+Delta Waves!!!!!NREM3-Body completely relaxes, progresses to deepest sleep where physiological repairs are done
+Gamma Waves!!!!!Focused consciousness
+somnambulism!!!!!Sleep walking
+Dissociation theory of hypnosis!!!!!Hypnosis is the mind's dissociation from the body's normal senses.
+Alan Baddaley!!!!!3 systems of memory
+Baddaley's 3 systems of memory!!!!!Central Executive, Phonological Loop, and Visuo-spatial sketchpad
+Central Executive!!!!!Controls our attention and coordinates working memory for a specific task
+Phonological Loop!!!!!Stores and utilizes speech-based information (spoken and written)
+Visuo-spatial sketchpad!!!!!Responsible for manipulating visual images and information
+Night terrors!!!!!Physiological responses to terror(screaming, thrashing, etc.) acted out while asleep, typically not remembered when woken up
+Somatoform Disorders!!!!!Experiencing physiological symptoms without any physiological cause.
+Hypochondriasis!!!!!Commonly say they experience certain physical ailments, but aren't actually experiencing it.
+Conversion Disorder!!!!!Severe physical problems such as blindness/paralysis caused by severe trauma.
+Nativist Theory!!!!!The idea that we learn language through special language acquisition devices rather than through conditioning, by Noam Chomsky
+Fast Mapping theory!!!!!Children get ideas of the meanings of words after hearing them only once or twice
+John Bowlby!!!!!Attachment Theory
+REM sleep!!!!!Paradoxical sleep
+Informational Social Influence!!!!!Belief that a group is more knowledgeable than others.
+Daniel Goleman!!!!!Emotional Intelligence
+Normative Social Influence!!!!!A person doesn't want to be outstanding from a group so they conform.
+Fixed-Ratio!!!!!Every x responses causes reinforcement
+Fixed-Interval!!!!!Regular schedule like every week, for reinforcement
+Categorical variable!!!!!Just A or B no other options
+Maintenance rehearsal!!!!!Repeating a word or concept to memorize
+Halo effect!!!!!Positive impressions of a person in one area tend to positively influence one's opinion of the person in other areas.
+Tabula rasa!!!!!Individuals are born a blank state
+Narcotics!!!!!Drugs that reduce pain like opiates
+3 D's disorder!!!!!Deviant, distressful, and dysfunctional
+Rosenhan Experiment!!!!!First normal people were sent to mental institutions, then studied, found treated terribly. Second, mental institutions knew, many were marked as fake, none were sent.
+Anxiety!!!!!A group of disorders defined by the physiological symptoms of anxiety(nervousness, restlessness, tenseness, etc.) with different intensities and different durations.
+Generalized Anxiety Disorder(GAD)!!!!!A continuous feeling of a mild level of anxiety, worriedness, nervousness, etc.
+Panic Disorder!!!!!High intensity anxiety for short moments
+Post Traumatic Stress Disorder(PTSD)!!!!!A disorder caused by an extremely distressing experience in which the individual experiences a panic attack when exposed to any stimuli that they can relate to the event.
+Phobia!!!!!An intense fear and/or anxiety toward something illogical to fear or have anxiety towards.
+Obsessive Compulsive Disorder(OCD)!!!!!Continuous thoughts about a specific possibly irrational problem and feeling of need for a specific response.
+Hypochondriasis(somatoform disorder)!!!!!Small physical problems, that they believe to be more severe and they frequently complain about these problems which have no physical cause.
+Conversion Disorder(somatoform disorder)!!!!!Severe physical problems with no physiological reason, rather caused by psychological things like trauma.
+Somatoform Disorder!!!!!Occur when a person manifests a psychological problem through a physiological symptom.
+Major Depressive Disorder(MDD)!!!!!Signs of intense depression last 2 weeks+, that aren't caused by drugs or other medical conditions
+Bipolar Disorder!!!!!Extreme mood swings between maniac(high arousal) and depression(minimal arousal).
+DSM-IV-TR!!!!!Diagnostic and Statistical Manual of Mental Disorders, this defines what are known disorders and what are the diagnostic requirements for the disorder.
+Seasonal Affective Disorder(SAD)!!!!!Disorders that correspond to the seasons, usually depression during the winter(shorter, darker, colder days)
+Dysthymic Disorder!!!!!A minor daily depression lasting for about 1-2 years.
+Dissociative Disorders!!!!!The consciousness has been disconnected with itself.
+Dissociative Identity Disorder(DID) aka multiple personality disorder!!!!!A single person has multiple personalities.
+Dissociative Amnesia!!!!!Amnesia with no physical cause.
+Dissociative Fugue!!!!!People may experience confusion about their identity, or take a trip away from home, forget their old identity, and assume a new one.
+Schizophrenia!!!!!The irregular interpretation of reality. In the brain:
+Too many dopamine receptors
+Bad neuron firing coordination
+Thalamus fires during hallucinations
+Shrinking of connections are parts of the brain
+Enlarged fluid filled areas
+Psychosis!!!!!Split from reality
+Paranoid Schizophrenia!!!!!Preoccupied with main delusions and some hallucinations
+Catatonic Schizophrenia!!!!!Wax-like flexibility(posable) or excessive purposeless movements, parroting speech and flat affect
+Flat affect!!!!!Little to no emotional expression
+Undifferentiated Schizophrenia!!!!!Combination of many schizophrenia symptoms
+Residual Schizophrenia!!!!!Period of no schizophrenia symptoms after a psychotic episode
+Disorganized Schizophrenia!!!!!Disorganized speech/behavior, flat/inappropriate emotion
+Positive Symptoms (things that are added to the person's experience)!!!!!Delusions, hallucinations, disorganized thoughts
+Negative Symptoms (things that are taken away from a person's experience)!!!!!Flat affect, alagia/poverty of speech, avolition/apathy
+Antisocial Personality Disorder!!!!!Psychopath/Sociopath, lack of empathy/emotions, views the world as hostile
+Borderline Personality Disorder!!!!!Unstable emotions, relationships and self-image, acts impulsive doing things like self harm(cutting) or damage through risky behaviors
+Histrionic Personality Disorder!!!!!Needs to be the center of attention, a dramatist.
+3 types of Personality Disorder!!!!!Anxious, Eccentric/odd, Dramatic
+Narcissistic Personality Disorder!!!!!Unwarranted sense of self importance, thinks they are the center of the world
+Psychoanalysis Therapy!!!!!The well known talk therapy.
+Client Centered Therapy(Humanistic Therapy)!!!!!Listening, let the client do the talking, and do the directing of their own actions.(problems are caused by cognitive dissonance)
+Anxiety Hierarchy(Behavioral Therapy)!!!!!Rate the anxiety level of doing certain things
+Flooding(Behavioral Therapy)!!!!!Surprise Intense Exposure
+Aversion Therapy(Behavioral Therapy)!!!!!Pairing negative punishment with an undesirable behavior
+Group therapy!!!!!People with similar problems talk in a group, lower cost, people more willing to share with others facing similar obstacles
+Family therapy!!!!!Therapy that works on how the family interacts or involves the whole family
+Self-Help groups!!!!!Focus on supporting those with problems, groups led by members not therapists
+Psychotherapy works?!!!!!There is proof some therapy is better than none
+Psychopharmacology!!!!!Medicine to treat the mind
+Antipsychotic medication!!!!!Reduce dopamine levels through blacking receptors. Good for treating positive symptoms. Clozapine, Haldol, Thorazine, etc.
+Side effect: lack of dopamine causes parkinson like symptoms and tardive dyskinesia
+tardive dyskinesia(TD)!!!!!Medication induced Inability to control facial movements that include grimacing, tongue protrusion, lip smacking, puckering, etc.
+Antianxiety medication!!!!!Benzodiazepine and barbiturates: Xanax, valium, ativan, etc. Depress CNS, fast acting, side effects: rebound, drowsiness, decrease REM sleep, highly addictive
+Antidepressant medication!!!!!Increases availability of norepinephrine and serotonin neurotransmitters, inhibits reuptake, include: Zoloft, Paxil, Prozac, etc. Delayed effects and not fully understood
+Mood Stabilizing Medications!!!!!For bipolar disorder, cheap used, include: lithium and depakote
+Electroconvulsive Therapy(ECT)!!!!!Shock treatment/therapy, not understood, causes controlled seizure in anesthetized patient and prevents suicide. Side effects: confusion, memory loss and intellectual impairment
+Deep Brain Stimulation!!!!!Pacemaker for brain, implant electrodes into brain, helps regulate abnormal impulses. Treats OCD, parkinsons, chronic pain, major depression, addiction and more
+Lobotomy!!!!!Destroys the connections between the frontal lobes and the rest of the brain. This decreases depression, but also destroys initiative, judgment, and cognition.
+Microsurgery!!!!!(usually MRI-guided precision surgery)
+might work by disrupting problematic neural networks involved with aggression or obsessive-compulsive disorder.
+Stress!!!!!The process of appraising and responding to events which we consider threatening or challenging.
+Stressors!!!!!Things that we view as threatening, challenging or overwhelming.
+Appraisal(in stress)!!!!!Deciding whether or not something is a stressor
+Walter Cannon!!!!!Theory of homeostasis and fight or flight response
+Phase 3(Exhaustion) Stress effects!!!!!the production of new neurons declines, neural circuits in the brain break down, DNA telomeres (chromosome tips) shorten, 🡪 cells lose ability to divide, 🡪 cells die, 🡪 tissue stops regenerating, 🡪 early aging and death
+Psychoimmunoneurology!!!!!Stressor🡪stress🡪stress hormone suppresses immune system
+Chronic Stress!!!!!Psychoimmunoneurology, Heart disease and autonomic nervous system effect(headaches, high blood pressure, inflammation)
+Cortisol!!!!!Stress hormone
+Catecholamines!!!!!Stress triggering hormones: norepinephrine, epinephrine, dopamine
+Retina signal processing!!!!!
+Light-Vision Process!!!!!Cornea, Pupils, Ganglion Cells, Bipolar Cells, Rods and Cones
+Retina-Neural Signal for Vision!!!!!Cones and Rods, Bipolar Cells, Ganglion Cells
+Auditory Process!!!!!Outer ear, auditory canal, eardrum/tympanic membrane, Hammer, anvil, stirrup, oval window, cochlea, hair cells catch signals
+Embodied Cognition!!!!!The influence of bodily sensations, gestures, and other states on cognitive preferences and judgements
+Identification Psychoanalysis!!!!!The process by which, according to Freud, children incorporate their parents' values into their developing superegos
+Suprachiasmatic nucleus (SCN)!!!!!a pair of cell clusters in the hypothalamus that controls circadian rhythm. In response to light, the SCN causes the pineal gland to adjust melatonin production, thus modifying our feelings of sleepiness
+Attention Deficit Hyperactivity Disorder(ADHD)!!!!!A disorder characterized by extreme inattention, hyperactivity and impulsiveness.
+pons!!!!!connects hindbrain, midbrain and forebrain, controls facial expressions.
+Instinctive Drift!!!!!The tendency of animal to forgo reward that contrasts certain instinctive behavior
+central route persuasion!!!!!occurs when interested people focus on the arguments and respond with favorable thoughts
+normative social influence!!!!!influence resulting from a person's desire to gain approval or avoid disapproval
+Insight Learning!!!!!Found by Wolfgang Kohler, states that certain learning like solving puzzles can be due to sudden insight.
+Variable-Interval schedule(VI)!!!!!in operant conditioning, a reinforcement schedule that reinforces a response at unpredictable time intervals
+George Sperling!!!!!Proved sensory memory exists
+Episodic memory!!!!!Memories of specific events, stored in a sequential series of events.
+Semantic Memory!!!!!General knowledge of the world, stored as facts, meanings, or categories rather than sequentially.
+Procedural Memory!!!!!Memories of skills and how to perform them. These memories are sequential but might be too complicated to describe in words.
+Alexander Luria!!!!!Studied eidetic(photographic) memory.
+Semantic Network Memory!!!!!Memories are created by taking pre-existing memories of meaning and context and connecting them to the new context and meaning.
+State-Dependent Memory!!!!!Current conscious state affects how well you remember things
+Convergent thinking!!!!!Thinking that results in one answer
+Divergent thinking!!!!!Finding multiple solutions to a problem
+Social Learning Theory!!!!!We learn social behavior through observational learning and being rewarded or punished.
+Neuro-cognitive Disorders(NCD)!!!!!Acquired disorders.
+Perceptual Sets!!!!!a mental predisposition to perceive one thing and not another
+Variable-Ratio Schedules(VR)!!!!!An unpredictable reinforcement schedule, but the average reinforcement ratio is still a fixed value like about every 5 times.
+Cognitive Map!!!!!A mental representation of the layout of one's environment
+empiricism!!!!!Knowledge comes from experience
+Encoding Specificity Principle!!!!!The idea that cues and contexts specific to a particular memory will be most effective in helping us recall it
+reconsolidation!!!!!a process in which previously stored memories, when retrieved, are potentially altered before being stored again
+linguistic influence!!!!!the weaker form of "linguistic relativity" - the idea that language affects thought
+behavior feedback effect!!!!!the tendency of behavior to influence our own and others' thoughts, feelings, and actions
+Why is smell sensation a great encoding specificity principle?!!!!!The olfactory bulb directly links to the limbic system, which controls emotions and memory.
+Stroboscopic effect!!!!!Flipbooks, movies, videos use this to simulate real recorded movement.
+Autokinetic Effect!!!!!If a spot of light is projected steadily on the same wall in the dark, people who stare at it for a while will report movement.(not sure if related to opponent process theory or power of suggestion)
+Response Criteria!!!!!Based on signal detection theory, it is the factors that affect selective attention.
+Papillae!!!!!Bumps on the tongue where taste buds are located
+fissures(brain)!!!!!wrinkles
+Face Validity!!!!!Superficial measure of accuracy for specific things.
+Construct Validity!!!!!On top of tests with near perfect validity we can find new correlations to predict more things
+Concurrent validity!!!!!How well the test predicts ther person's current skill
+Thomas Holmes and Richard Rahe!!!!!Social Readjustment Rating Scale(SRRS)
+Social Readjustment Rating Scale(SRRS)!!!!!Measure stress using life-change units(LCUs).More LCUs means higher chance of getting stress related disease.(doesn't take into perception individual ideas of stress)
+Power test!!!!!A test with varying levels of difficulty trying to find the upper limit of the person's ability
+Speed test!!!!!A test with not enough time per question designed to test a person's speed.
+EQ!!!!!Emotional intelligence, along with IQ, predicts a person's likelihood to succeed.
+Stanford-Binet Scale!!!!!100*Mental age/chronological age=IQ, adults get chronological age of 20 (john mental age 15, real age 10, 15/10*100=150)
+Moro Reflex!!!!!When startled, a baby will fling his or her limbs out and then quickly retract them, making himself or herself as small as possible.
+secure attachments!!!!!Infants confidently explore the novel environment while the parents are present, are distressed when they leave, and come to the parents when they return.
+avoidant attachments!!!!!Infants may resist being held by the parents and will explore the novel environment. They do not go to their parents for comfort when they return after an absence.
+anxious/ ambivalent attachments(resistant attachments)!!!!!Infants have ambivalent reactions to the parents. They may show extreme stress when the parents leave but resist being comforted by them when they return.
+Richard LaPiere!!!!!Proved attitudes aren't entirely predictive of behavior
+Robert Rosenthal and Lenore Jacobson!!!!!Pygmalion in the Classroom experiment-did an iq test, but took a random group of children in the test, said they were going to have significant academic growth, the children in this random group ended up performing better(self-fulfilling prophecy)
+False-consensus effect!!!!!The tendency for people to overestimate the number of people that agree with them
+Muzafer Sherif!!!!!Robber's Cave Study-2 imbalance competing groups at a summer camp were able to improve relations through superordinate goals.
+Pluralistic ignorance!!!!!People decide what's appropriate behavior in the situation by looking at others.
+Implosive therapy!!!!!Imaginary flooding
+Attribution Theory!!!!!Internal vs global(I am bad at math vs I am bad at everything), stable vs unstable (Math tests are easy vs this math test happened to be easy)and situational vs personal attribution(They worked very hard to do well vs they are good at math)
+Conscious Levels!!!!!Conscious, nonconscious, preconscious, subconscious, unconscious
+Conscious!!!!!The information about yourself and your environment you are currently aware of.
+Nonconscious!!!!!Body processes that we usually aren't actively aware of(ex. Breathing, heartbeat, etc.)
+Preconscious!!!!!You are not currently aware of but you can be made aware of.
+Subconscious!!!!!Information that we are not consciously aware of but we know must exist due to behavior.
+Unconscious!!!!!Psychoanalytic psychologists believe some events and feelings are unacceptable to our conscious mind and are repressed into the unconscious mind. (hard to prove)
+Reaction Formation!!!!!A defense mechanism where one expresses opposite emotions of what they truly feel.
+Intellectualization!!!!!A defense mechanism where one partakes academic, unemotional study of the topic
+Neurodevelopmental Hypothesis of Schizophrenia!!!!!Disruption in early childhood development increases the chance of disease later in life.
+Diathesis-stress model!!!!!Stress increases chance of certain illnesses like schizophrenia
+Insight therapy!!!!!Therapy centered around the root cause of problems
+Motion Parallax!!!!!Closer objects move faster, further objects move slower
+Nomothetic Theory!!!!!All people can be described with a set of fundamental traits
+Idiographic Trait Theory!!!!!Different sets of traits for different people
+Achievement motivation!!!!!People do things to challenge themselves
+Percentage of time spent in each stage of sleep!!!!!People spend approximately 50 percent of their time asleep in stage 2. Approximately 25 percent is spent in REM, 20 percent in deep sleep (stages 3 and 4), and only about 5 percent in stage 1.
+Declarative memory!!!!!Explicit memory
+Neuron depolarization!!!!!Positive sodium ions rush in and changer polarity
+One month infant!!!!!Can lift head
+3 months infant!!!!!Can hold head steady
+6 months infant!!!!!Can sit up
+9 month infant!!!!!Can stand with some support or something to hold onto
+1 year infant!!!!!Can stand and take a step or 2
+Ex-Post Facto Study!!!!!The independent variable has already been predetermined like gender
+Lateral Geniculate Nucleus!!!!!Where initial visual processing takes place in the thalamus
+Basal Ganglia!!!!!Group of Nuclei that help coordinate different parts of the brain
+Optic Chiasm!!!!!Where information from retinas cross

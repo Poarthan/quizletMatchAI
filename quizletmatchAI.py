@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 import time
 start=time.time()
 import pyautogui, sys
@@ -16,7 +19,7 @@ import PIL
 import cv2
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 
 ###clickscreen for 175% zoom
@@ -66,46 +69,47 @@ def main():
     positions, badlist=textparse(wordlist, imagetext)
     speedclick(positions)
     time.sleep(0.1)
+
     if len(badlist) <3 and len(badlist) > 1:
         oldmain()
     if len(badlist)>6:
         lol=PIL.ImageGrab.grab()
-        filepath='debugpic'+str(random.randint(0,1299202))+'.png'
+        #filepath='debugpic'+str(random.randint(1000,1999))+'.png'
         lol.save(filepath, 'PNG')
     else:
         lol=PIL.ImageGrab.grab()
-        filepath='debugpic'+str(random.randint(13000000,129920200))+'.png'
+        #filepath='debugpic'+str(random.randint(5000,5999))+'.png'
         lol.save(filepath, 'PNG')
         oldmain()
-        
-        #postclick(badlist)
+
+    
+    postclick(badlist)
     end=time.time()
     print('done')
     print(start-end)
 
     #positions=textparser(wordlist, unusual, imagetext)
 
+
+    
 def getimageinfo(sslist):
     sstextlist=[]
     for xyxy in sslist:
-        lol=PIL.ImageGrab.grab(bbox=(xyxy[0],xyxy[1],xyxy[2],xyxy[3]))
-        #img = cv2.imread(lol)
-        
-        text=pytesseract.image_to_string(lol)
+        matchImage=PIL.ImageGrab.grab(bbox=(xyxy[0],xyxy[1],xyxy[2],xyxy[3]))
+        #img = cv2.imread(matchImage)
+        text=pytesseract.image_to_string(matchImage)
         print(text)
         text=text.replace("\n", " ")
         text=text.strip()
         sstextlist.append(text)
-    #print(text)
+        #print(text)
     return sstextlist
 
 def matchlist():
     newlines=[]
-    #unusual=[]
-    matchsplitchar="!!!"
+    matchsplitchar="!!!!!"
     with open('quizletmatchlist.txt') as file:
         lines = [line.rstrip() for line in file]
-    #print(lines)
 
     for stuff in lines:
         things=stuff.split(matchsplitchar)
@@ -150,47 +154,12 @@ def textparse(thelist, imagestuff):
     return pairlist, badlist
 
 
-'''
-def textparser(thelist, unusuals, textimage):
-    #for word in unusuals:
-     #   newlist=thelist.remove(word)
-    #print(newlist)
-    textimage=textimage.strip()
-    textimage=textimage.replace('|', 'I')
-    textimage=textimage.split("\n")
-    textimage=[x for x in textimage if x]
-    if len(textimage)>12:
-        itUnusual=True
-    else:
-        itUnusual=False
-    positions=[]
-    weird=[]
-    for term in textimage:
-        thingfound=False
-        for matches in thelist:
-            if term in matches:
-                matchindex, termindex=thelist.index(matches), matches.index(term)
-                pairindex=(termindex+1)%2
-                pairstring=thelist[matchindex][pairindex]
-                if pairstring not in unusuals:
-                    for i 
-                    pair=textimage.index(pairstring)
-                    positions.append(textimage.index(term), pair)
-                thingfound=True
-            else:
-                weird.append(str(textimage.index(term))+'n')
-                #thingfound=True
-        if thingfound == False:
-            weird.append(textimage.index(term))
+def jaccard_similarity(x,y):
+    """ returns the jaccard similarity between two lists """
+    intersection_cardinality = len(set.intersection(*[set(x), set(y)]))
+    union_cardinality = len(set.union(*[set(x), set(y)]))
+    return intersection_cardinality/float(union_cardinality)
 
-    print(positions, weird)
-    
-    print(textimage)
-    #[liney.rstrip() for liney in textimage]
-    #print(textimage)
-    #imagestuff=[line.rstrip() for line in textimage]
-    #print(imagestuff)
-'''
 def solveandcheck():
     global alllist, savedlist, originlist  
     originlist=[a, b, c, d, e, f, g, h, i, j, k, l]
