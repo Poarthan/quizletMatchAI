@@ -6,60 +6,28 @@ start=time.time()
 import pyautogui, sys
 import mouse
 import random
-# import random
-# import pyperclip
-# import codecs
-# import os
-# import shutil
 import PIL
-# import keyboard
-# import threading
-# import logging
-# from win32gui import GetWindowText, GetForegroundWindow
 import cv2
 import pytesseract
+from pynput.mouse import Listener
 
 #pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-
-###clickscreen for 175% zoom
-a=1200, 700
-b=1200, 900
-c=1200, 1200
-d=1200, 1450
-e=1650, 700
-f=1650, 900
-g=1650, 1200
-h=1650, 1450
-i=2100, 700
-j=2100, 900
-k=2100, 1200
-l=2100, 1450
-
-a1=695, 471, 1328, 752
-b1=695, 773, 1328, 1052
-c1=695, 1080, 1328, 1357
-d1=695, 1381, 1328, 1650
-e1=1352, 471, 1980, 752
-f1=1352, 773, 1980, 1052
-g1=1352, 1080, 1980, 1357
-h1=1352, 1381, 1980, 1650
-i1=2007, 471, 2640, 752
-j1=2007, 773, 2640, 1052
-k1=2007, 1080, 2640, 1357
-l1=2007, 1381, 2640, 1650
-
 
 pyautogui.hotkey('alt','tab')
 
 global alllist, savedlist, originlist, screenshotlist  
+
+with open('coordfile.txt') as file:
+    lines = [line.rstrip() for line in file]
+
+
+
 
 #listfinished=False
 originlist=[a, b, c, d, e, f, g, h, i, j, k, l]
 alllist=[a, b, c, d, e, f, g, h, i, j, k, l]
 savedlist=[a, b, c, d, e, f, g, h, i, j, k, l]
 screenshotlist=[a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1]
-
 
 def main():
     imagetext=getimageinfo(screenshotlist)

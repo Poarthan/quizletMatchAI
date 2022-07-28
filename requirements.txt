@@ -1,0 +1,6 @@
+pyatuogui
+mouse
+cv2
+pytesseract
+pynpyt
+pillow
