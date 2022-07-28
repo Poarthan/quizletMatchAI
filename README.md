@@ -22,6 +22,8 @@ Other pip modules:
 ```
 pip install -r requirements.txt
 ```
+After quite a bit of testing so far the best way to do it fast is to use the pillow==8.4.0 library to take screenshot which is much faster than the pyscreenshot library, but it is possibly incompatable with other modules, which is sad.
+
 
 Adapting this program to your computer screen. Open the quizlet test link and then click on match. Play around with the scales and match until you find a scale size that works with tile clicking instead of clicking and dragging and the text is still reasonably readable.
 

@@ -7,8 +7,10 @@ import sys, pyautogui
 
 #import mouse
 import random
-#from PIL import ImageGrab
-import pyscreenshot as ImageGrab
+from PIL import ImageGrab
+#import pyscreenshot as ImageGrab
+
+#import gtk.gdk
 
 #import cv2
 import pytesseract
@@ -234,7 +236,7 @@ def mouseclick(asdf, asdf2):
     sdf=mouse.get_position()
     abc=asdf-sdf[0], asdf2-sdf[1]
     mouse.move(abc[0], abc[1], absolute=False, duration=0)
-
+    
 def oldmain():
     m=0
     n=0
@@ -267,4 +269,7 @@ def oldmain():
         # time.sleep(0.1)
         mouse.click()
         n+=1
-main()
+if __name__ == "__main__":
+    main()
+
+

@@ -3,4 +3,5 @@ mouse
 cv2
 pytesseract
 pynpyt
-pillow
+pillow==8.4.0
+pyscreenshot
