@@ -3,68 +3,136 @@
 
 import time
 start=time.time()
-import pyautogui, sys
-import mouse
+import sys, pyautogui
+
+#import mouse
 import random
-import PIL
-import cv2
+#from PIL import ImageGrab
+import pyscreenshot as ImageGrab
+
+#import cv2
 import pytesseract
-from pynput.mouse import Listener
+from pynput.mouse import Button, Controller
+mouse = Controller()
 
 #pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-pyautogui.hotkey('alt','tab')
-
-global alllist, savedlist, originlist, screenshotlist  
-
-with open('coordfile.txt') as file:
-    lines = [line.rstrip() for line in file]
-
-
-
-
-#listfinished=False
-originlist=[a, b, c, d, e, f, g, h, i, j, k, l]
-alllist=[a, b, c, d, e, f, g, h, i, j, k, l]
-savedlist=[a, b, c, d, e, f, g, h, i, j, k, l]
-screenshotlist=[a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1]
-
 def main():
+    #time.sleep(0.1)
+    pyautogui.hotkey('alt','tab')
+    setup()
     imagetext=getimageinfo(screenshotlist)
-    print(imagetext)
+
     wordlist=matchlist()
     print(wordlist)
     positions, badlist=textparse(wordlist, imagetext)
     speedclick(positions)
     time.sleep(0.1)
-
+    
     if len(badlist) <3 and len(badlist) > 1:
         oldmain()
-    if len(badlist)>6:
-        lol=PIL.ImageGrab.grab()
-        #filepath='debugpic'+str(random.randint(1000,1999))+'.png'
-        lol.save(filepath, 'PNG')
     else:
-        lol=PIL.ImageGrab.grab()
-        #filepath='debugpic'+str(random.randint(5000,5999))+'.png'
-        lol.save(filepath, 'PNG')
+        newlist=similaritytest(wordlist, badlist)
+        positions, badlist=textparse(wordlist, imagetext)
+        speedclick(positions)
         oldmain()
+#        if len(badlist)>6:
+#            lol=ImageGrab.grab()
+            #filepath='debugpic'+str(random.randint(1000,1999))+'.png'
+            #lol.save(filepath, 'PNG')
+#    else:
+#        lol=ImageGrab.grab()
+        #filepath='debugpic'+str(random.randint(5000,5999))+'.png'
+        #lol.save(filepath, 'PNG')
+        #oldmain()
 
-    
-    postclick(badlist)
+    print(badlist)
+    #postclick(badlist)
     end=time.time()
     print('done')
     print(start-end)
 
-    #positions=textparser(wordlist, unusual, imagetext)
+   #positions=textparser(wordlist, unusual, imagetext)
 
+def jaccard_similarity(x,y):
+    """ returns the jaccard similarity between two lists """
+    intersection_cardinality = len(set.intersection(*[set(x), set(y)]))
+    union_cardinality = len(set.union(*[set(x), set(y)]))
+    return intersection_cardinality/float(union_cardinality)
 
+def similaritytest(pairl, wordl):
+    score=0
+    final="hello"
+    finallist=[]
+    for asdf in pairl:
+        for asdf2 in wordl:
+            score2=jaccard_similarity(asdf, asdf2)
+            if score2>score:
+                score=score2
+                final=asdf
+        finallist.append(final)
+    return finallist
+        
+    
+   
+def setup():
+    global alllist, savedlist, originlist, screenshotlist  
+    with open('coordfile.txt') as file:
+        lines = [line.rstrip() for line in file]
+    coords=[]
+    for i in lines:
+        nn1, nn2=i.split(",")
+        coords.append(nn1)
+        coords.append(nn2)
+    ab=coords[0], coords[1]
+    bb=coords[0], coords[3]
+    cb=coords[0], coords[5]
+    db=coords[0], coords[7]
+    eb=coords[8], coords[1]
+    fb=coords[8], coords[3]
+    gb=coords[8], coords[5]
+    hb=coords[8], coords[7]
+    ib=coords[10], coords[1]
+    jb=coords[10], coords[3]
+    kb=coords[10], coords[5]
+    lb=coords[10], coords[7]
+    a1=coords[12], coords[13], coords[14], coords[15]
+    b1=coords[12], coords[17], coords[14], coords[19]
+    c1=coords[12], coords[21], coords[14], coords[23]
+    d1=coords[12], coords[25], coords[14], coords[27]
+    e1=coords[28], coords[13], coords[30], coords[15]
+    f1=coords[28], coords[17], coords[30], coords[19] 
+    g1=coords[28], coords[21], coords[30], coords[23]
+    h1=coords[28], coords[25], coords[30], coords[27]
+    i1=coords[32], coords[13], coords[34], coords[15]
+    j1=coords[32], coords[17], coords[34], coords[19]
+    k1=coords[32], coords[21], coords[34], coords[23]
+    l1=coords[32], coords[25], coords[34], coords[27]
+    #listfinished=False
+    alllist=[]
+    screenshotlist=[]
+    originlist=[ab, bb, cb, db, eb, fb, gb, hb, ib, jb, kb, lb]
+    sslist=[a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1]
+    for ll in originlist:
+        x=int(ll[0]), int(ll[1])
+        alllist.append(x)
+    for jj in sslist:
+        x=int(jj[0]), int(jj[1]), int(jj[2]), int(jj[3])
+        screenshotlist.append(x)
+    originlist=alllist
+    savedlist=alllist
+    print(alllist)
+    print(screenshotlist)
+    
     
 def getimageinfo(sslist):
     sstextlist=[]
     for xyxy in sslist:
-        matchImage=PIL.ImageGrab.grab(bbox=(xyxy[0],xyxy[1],xyxy[2],xyxy[3]))
-        #img = cv2.imread(matchImage)
+        #print(xyxy)
+        matchImage=ImageGrab.grab(bbox=(xyxy[0],xyxy[1],xyxy[2],xyxy[3]))
+        #matchImage.save(f"tmp{xyxy}.png") ###for debugging
+        #img = cv2.imread("tmp.png")
+        #time.sleep(10)
         text=pytesseract.image_to_string(matchImage)
         print(text)
         text=text.replace("\n", " ")
@@ -93,9 +161,17 @@ def matchlist():
 def speedclick(indecies):
     for indice in indecies:
         coordinates=originlist[indice]
-        mouseclick(coordinates[0], coordinates[1])
-        mouse.click()
-
+        print(coordinates)
+        posx=int(coordinates[0])
+        posy=int(coordinates[1])
+        print(posx, posy)
+        #mouseclick(posx, posy)
+        #mouse.click()
+        #pyautogui.click(x=posx, y=posy)
+        mouse.position=(posx, posy)
+        mouse.press(Button.left)
+        mouse.release(Button.left)
+        time.sleep(0.1)
 def textparse(thelist, imagestuff):
     pairlist=[]
     badlist=[]
@@ -114,7 +190,7 @@ def textparse(thelist, imagestuff):
                         pairlist.append(wordval)
                         pairlist.append(pairval)
                 else:
-                    badlist.append(match[pairindex]+"p"+str(wordval))
+                    badlist.append(match[pairindex]+str(wordval))
         if wordfound==False:
             badlist.append(wordfound)
 
@@ -122,19 +198,13 @@ def textparse(thelist, imagestuff):
     return pairlist, badlist
 
 
-def jaccard_similarity(x,y):
-    """ returns the jaccard similarity between two lists """
-    intersection_cardinality = len(set.intersection(*[set(x), set(y)]))
-    union_cardinality = len(set.union(*[set(x), set(y)]))
-    return intersection_cardinality/float(union_cardinality)
-
 def solveandcheck():
     global alllist, savedlist, originlist  
     originlist=[a, b, c, d, e, f, g, h, i, j, k, l]
     savedlist=originlist
     troll=False
     pops=[]
-    lol=PIL.ImageGrab.grab()
+    lol=ImageGrab.grab()
     #filepath='debugpic'+str(random.randint(0,1299202))+'.png'
     #lol.save(filepath, 'PNG')
     for x in range(len(originlist)):
