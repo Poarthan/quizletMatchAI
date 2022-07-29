@@ -36,7 +36,7 @@ def main():
     imagetext=getimageinfo(screenshotlist)
     check=time.time()
     #print(imagetext)
-    print("check:", check-start)
+    print("ss check:", check-start)
     
     wordlist=matchlist()
     #print(wordlist)
@@ -44,17 +44,18 @@ def main():
     positions, badlist=textparse(wordlist, imagetext)
     check2=time.time()
 
-    print("check2", check2-check)
+    print("calc check2", check2-check)
     speedclick(positions)
     time.sleep(0.1)
-    
+    c4=time.time()
+    print("click check", c4-check2)
     if len(badlist) <3:
         oldmain()
     if len(badlist )>2:
         print("__test__")
         newpos=similaritytest(wordlist, badlist)
         check3=time.time()
-        print("check3", check3-check2)
+        print("calc check3", check3-c4)
         speedclick(newpos)
         oldmain()
 #        if len(badlist)>6:
@@ -351,7 +352,7 @@ def oldmain():
     m=0
     n=0
     listfinished=False
-    print(len(savedlist))
+#    print(len(savedlist))
     while listfinished==False:
         troll=solveandcheck()
         if troll==True:
@@ -359,9 +360,9 @@ def oldmain():
             n=0
             o=len(alllist)
         o=len(alllist)
-        print(o, alllist)
+#        print(o, alllist)
         if len(alllist)<1:
-            print("??????????????????????????????????////")
+#            print("??????????????????????????????????////")
             troll=solveandcheck()
             #print(len(alllist))
             if troll==True:
@@ -387,7 +388,7 @@ def oldmain():
         if p==m and p+1 < len(alllist)-1:
             p+=1
             # print(alllist[m], alllist[p])
-        print(m)
+        #print(m)
         posx=alllist[m][0]
         posy=alllist[m][1]
         mouse.position=(posx, posy)
