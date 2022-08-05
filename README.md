@@ -25,18 +25,18 @@ pip install -r requirements.txt
 After quite a bit of testing so far the best way to do it fast is to use the pillow==8.4.0 library to take screenshot which is much faster than the pyscreenshot library, but it is possibly incompatable with other modules, which is sad.
 
 
-Adapting this program to your computer screen. Open the quizlet test link and then click on match. Play around with the scales and match until you find a scale size that works with tile clicking instead of clicking and dragging and the text is still reasonably readable.
+To adapt this program to your computer screen. Open the quizlet test link and then click on match. Play around with the scales and match until you find a scale size that works with tile clicking instead of clicking and dragging and the text is still reasonably readable. As shown below:
 
-xxx.jpg
+![alt text](./readme_im/example.png)
 
-The next step is to run get_coords.py with the following command and start configuring for your screen:
+The next step is to run get_coords.py with the following command and start configuring for your screen, press Y to reset coordfile and s when your ready to start recording coordinates:
 ```
 python3 get_coords.py
 ```
-Go through in order 1-6, then 7-18:
-1-6.jpg
+Go through in order 1-6 and click on the red dots, then 7-18 click on the red dots, in the correct order:
+![alt text](./readme_im/tutorial.png)
 
-7-8.jpg
+![alt text](./readme_im/tutorial718.png)
 
 Alt-tab to terminal and Ctrl-C to stop the program.
 
@@ -44,12 +44,13 @@ Now you can start a new quizlet match and run the program ``` python3 quizletmat
 
 For other quizlets:
 To set it up for other quizlets you need to get their list of words so you would go to their main page:
-xxx.png
+![alt text](./readme_im/main_screen.png)
 
 Click export:
-xxx.png
+![alt text](./readme_im/export.png)
+
 
 Change divider to !!!!!(which is what is currently used by the code):
-xxx.png
+![alt text](./readme_im/change_divider.png)
 
 and copy paste it to the quizletmatchlist.txt

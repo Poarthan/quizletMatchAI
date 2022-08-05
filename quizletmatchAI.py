@@ -2,7 +2,6 @@
 
 
 import time
-start=time.time()
 import sys, pyautogui
 
 #import mouse
@@ -25,10 +24,25 @@ mouse = Controller()
 #    cdd=time.time()
 #    print(cdd-cd)
 
+
+
 def main():
-    #time.sleep(0.1)
     pyautogui.hotkey('alt','tab')
-    
+    matchingalg()
+
+   # for i in range(100):
+   #     matchingalg()
+   #     for i in range(9):
+   #         time.sleep(1)
+   #         print(i, "seconds")
+   #     pyautogui.click(2411, 782)
+   #     time.sleep(0.2)
+
+def matchingalg():
+    global start
+    start=time.time()
+    #time.sleep(0.1)
+
     #waitstart()
     #startstart=time.time()
     #print("start", startstart)
@@ -37,10 +51,10 @@ def main():
     check=time.time()
     #print(imagetext)
     print("ss check:", check-start)
-    
+
     wordlist=matchlist()
     #print(wordlist)
-    
+
     positions, badlist=textparse(wordlist, imagetext)
     check2=time.time()
 
@@ -83,7 +97,7 @@ def main():
 #                if cc < 150:
 #                    pops.append(x)
 #    print("wait")
-   
+
 def jaccard_similarity(x,y):
     """ returns the jaccard similarity between two lists """
     #print(x,y)
@@ -149,16 +163,19 @@ def similaritytest(wordl, pairl):
         for match in wordl:
             if word in match:
                 wordfound=True
-                
+
                 matchindex, listindex=match.index(word), wordl.index(match)
                 pairindex=(matchindex+1)%2
                 matched=False
                 for matchpos in pairl:
-                    if match[pairindex]==matchpos[0]:
-                        pairval=matchpos[1]
-                        if pairval not in pairlist and wordval not in pairlist:
-                            pairlist.append(wordval)
-                            pairlist.append(pairval)
+                    try:
+                        if match[pairindex]==matchpos[0]:
+                            pairval=matchpos[1]
+                            if pairval not in pairlist and wordval not in pairlist:
+                                pairlist.append(wordval)
+                                pairlist.append(pairval)
+                    except:
+                        print(matchpos)
                 else:
                     tmpbad=[word[0], wordval]
                     badlist.append(tmpbad)
@@ -166,11 +183,11 @@ def similaritytest(wordl, pairl):
             tmpbad=[word[0], word[1]]
             badlist.append(tmpbad)
     return pairlist
-        
-    
-   
+
+
+
 def setup():
-    global alllist, savedlist, originlist, screenshotlist  
+    global alllist, savedlist, originlist, screenshotlist
     with open('coordfile.txt') as file:
         lines = [line.rstrip() for line in file]
     coords=[]
@@ -195,7 +212,7 @@ def setup():
     c1=coords[12], coords[21], coords[14], coords[23]
     d1=coords[12], coords[25], coords[14], coords[27]
     e1=coords[28], coords[13], coords[30], coords[15]
-    f1=coords[28], coords[17], coords[30], coords[19] 
+    f1=coords[28], coords[17], coords[30], coords[19]
     g1=coords[28], coords[21], coords[30], coords[23]
     h1=coords[28], coords[25], coords[30], coords[27]
     i1=coords[32], coords[13], coords[34], coords[15]
@@ -217,8 +234,8 @@ def setup():
     savedlist=alllist
     #print(alllist)
     #print(screenshotlist)
-    
-    
+
+
 def getimageinfo(sslist):
     sstextlist=[]
     txt=""
@@ -296,7 +313,7 @@ def textparse(thelist, imagestuff):
                 pairindex=(matchindex+1)%2
                 if match[pairindex] in imagestuff:
                     pairval=imagestuff.index(match[pairindex])
-                    
+
                     if pairval not in pairlist and wordval not in pairlist:
                         pairlist.append(wordval)
                         pairlist.append(pairval)
@@ -312,7 +329,7 @@ def textparse(thelist, imagestuff):
 
 
 def solveandcheck():
-    global alllist, savedlist, originlist  
+    global alllist, savedlist, originlist
     originlist=savedlist
     savedlist=originlist
     troll=False
@@ -327,27 +344,27 @@ def solveandcheck():
         #finished=245, 247, 251
         #red=255,220,214
         #yellow=255, 243, 200
-        
+
         ca, cb, cc=lol.getpixel(coordinate)
         if ca < 250:
             if cb < 254:
                 if cc < 254:
                     pops.append(x)
-                               
+
 
     for index in sorted(pops, reverse=True):
         del savedlist[index]
     if len(savedlist)<len(alllist):
-        troll=True 
+        troll=True
     alllist=savedlist
     #print(originlist, savedlist, alllist)
     return troll
-    
+
 def mouseclick(asdf, asdf2):
     sdf=mouse.get_position()
     abc=asdf-sdf[0], asdf2-sdf[1]
     mouse.move(abc[0], abc[1], absolute=False, duration=0)
-    
+
 def oldmain():
     m=0
     n=0
@@ -402,7 +419,7 @@ def oldmain():
         mouse.position=(posx, posy)
         mouse.press(Button.left)
         mouse.release(Button.left)
-        
+
         #mouse.click()
         #mouseclick(alllist[p][0], alllist[p][1])
         # time.sleep(0.1)

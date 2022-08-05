@@ -16,7 +16,7 @@ def main():
         f.close()
 
     print("Press s to start reccording coordinates, press CTRL-C in the terminal to stop program")
-    
+
     begin()
 def begin():
     def on_press(key):
